@@ -1,0 +1,16 @@
+The game requires 2 players: Computer and Human. Each one selects 1 move, each move has an integer value.
+
+Possible moves:
+  Rock = 1
+  Paper = 2
+  Scissors = 3
+
+Combinations:
+  Rock wins Scissors and looses to Paper
+  Paper wins Rock and looses to Scissors
+  Scissors wins Paper and looses to Rock
+
+Human player enters his/her move by sending SMS to +37258821021 with Rock, Paper or Scissors typed in to the SMS.
+Computer player randomly generates a value from 1 to 3.
+
+The moves are compared and the result is sent to the human player's phone number.
