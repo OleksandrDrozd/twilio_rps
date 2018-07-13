@@ -12,3 +12,4 @@ def compare_moves(player, computer):
 
         else:
             return "You lose the round :("
+
