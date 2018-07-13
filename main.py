@@ -1,5 +1,4 @@
 from random import randint
-import logging
 
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
