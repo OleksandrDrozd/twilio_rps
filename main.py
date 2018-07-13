@@ -30,7 +30,7 @@ def incoming_sms():
     result = c.compare_moves(player_move, computer_move)
 
     # Generates a string that is sent to a human player as a final result.
-    send_result = "You chose - {p}.\nComputer chose - {c}.\nOutcome is - {r}".format(
+    send_result = "You chose {p}.\nComputer chose {c}.\n{r}".format(
         p=tv.from_integer_to_string(player_move), c=tv.from_integer_to_string(computer_move), r=result)
 
     # Start TwiML response
