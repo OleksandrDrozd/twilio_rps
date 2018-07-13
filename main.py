@@ -40,7 +40,8 @@ def incoming_sms():
     if body in tv.all_moves:
         resp.message(send_result)
     else:
-        resp.message("Please enter Rock, Paper or Scissors.\nSee https://twilio-rps.appspot.com/ for more information.")
+        resp.message("Please enter Rock, Paper or Scissors.\nSee https://twilio-rps.herokuapp.com for more "
+                     "information.")
 
     return str(resp)
 
